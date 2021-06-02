@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta</title>
+</head>
+<body>
+    
+<script>
+    var num1,
+    si=prompt('En una escala del 1 al 10 ¿cuanto cree usted que tincho se la come?','');
+    num1=parseInt(num1);
+    if (num1<=1000000) 
+    {
+        document.write('No importa lo que usted crea tincho siempre se la come.');
+    } else {
+        document.write('No importa lo que usted crea tincho siempre se la come.');
+
+    }
+</script>
+<br>
+
+<img src="https://files.000webhost.com/handler.php?action=download?action=download&path=%2Fpublic_html%2Ftincho%202.png" style="text-align: center;">
+<br>
+<p>Elige una opcion:
+    <br>
+    (no hay opciones incorrectas)</p>
+<script>
+
+    function opcion1()
+    {
+        alert('Tincho se la come');
+    }    
+
+    function opcion2()
+    {
+        alert('Tincho se atraganta con el pepino de carne');
+    }
+
+    function opcion3()
+    {
+        alert('Tincho pela la banana con la cola');
+    }
+</script>
+
+<form>
+    <input type="button" onclick="opcion1()" value="Boton 1">
+    <input type="button" onclick="opcion2()" value="Boton 2">
+    <input type="button" onclick="opcion3()" value="Boton 3">
+</form>
+<br>
+<a href="index.html">Volver.</a>
+</body>
+</html>
